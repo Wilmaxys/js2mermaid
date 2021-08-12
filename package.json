@@ -1,0 +1,30 @@
+{
+  "name": "js2mermaid",
+  "version": "0.0.1",
+  "description": "js2mermaid flow chart",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn ts-node src/converter.ts",
+    "pret": "yarn prettier 'src/**/*.ts'",
+    "pret:fix": "yarn prettier --write 'src/**/*.ts'",
+    "lint": "yarn eslint 'src/**/*.ts'",
+    "lint:fix": "yarn eslint --fix 'src/**/*.ts'"
+  },
+  "author": "Benjamin Ragot",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.6.0",
+    "@typescript-eslint/eslint-plugin": "4.29.1",
+    "@typescript-eslint/parser": "4.29.1",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "18.2.1"
+  }
+}
